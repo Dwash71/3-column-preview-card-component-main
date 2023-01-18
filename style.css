@@ -105,13 +105,9 @@ body {
 }
 
 .cards {
-
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 30px;
-  /* width: 255px; */
-  /* height: 450px; */
 }
-
 .sedan {
   background: var(--bright-orange);
 }
@@ -132,8 +128,9 @@ body {
 .cards.luxury {
   border-radius: 0 0.625rem 0.625rem 0;
 }
-.title, .card-detail {
-color: var(--very-light-gray-bg-head-btns);
+.title,
+.card-detail {
+  color: var(--very-light-gray-bg-head-btns);
 }
 
 .title {
@@ -155,7 +152,7 @@ color: var(--very-light-gray-bg-head-btns);
   border-radius: 30px;
   border: 2px solid #fff;
   cursor: pointer;
-transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .btns.sedan {
@@ -182,12 +179,12 @@ transition: all .4s ease-in-out;
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .card-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-width: 900px;
     margin: auto;
   }
@@ -200,7 +197,7 @@ transition: all .4s ease-in-out;
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
   .card-container {
     display: flex;
     flex-direction: column;
@@ -216,9 +213,9 @@ transition: all .4s ease-in-out;
     margin: 15px;
   }
 
-.card-detail {
-  margin: 15px 0 20px 0;
-}
+  .card-detail {
+    margin: 15px 0 20px 0;
+  }
 
   .btns {
     padding: 10px 20px;
