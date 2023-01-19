@@ -149,26 +149,26 @@ body {
   line-height: 1.5;
 }
 
-.btns {
+.btn {
   background: var(--very-light-gray-bg-head-btns);
   padding: 8px 1.25rem;
   border-radius: 1.875rem;
   border: 2px solid #fff;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  }
+}
 
-.btns.sedan {
+.btn.sedan {
   color: var(--bright-orange);
 }
-.btns.suv {
+.btn.suv {
   color: var(--dark-cyan);
 }
-.btns.luxury {
+.btn.luxury {
   color: var(--very-dark-cyan);
 }
 
-.btns:hover {
+.btn:hover {
   background: transparent;
   color: var(--very-light-gray-bg-head-btns);
   border: 2px solid var(--very-light-gray-bg-head-btns);
@@ -187,7 +187,7 @@ body {
   .card-container {
     max-width: 980px;
     margin: auto;
-   }
+  }
   .cards {
     height: 500px;
     padding: 50px;
@@ -199,17 +199,17 @@ body {
     margin-bottom: 80px;
     font-size: 15px;
   }
-  .btns {
+  .btn {
     padding: 8px 20px;
     font-size: 15px;
   }
- }
+}
 
 @media (min-width: 900px) {
   .card-container {
     max-width: 950px;
     margin: auto;
-   }
+  }
   .cards {
     height: 500px;
     padding: 50px;
@@ -221,16 +221,16 @@ body {
     margin-bottom: 80px;
     font-size: 15px;
   }
-  .btns {
+  .btn {
     padding: 8px 18px;
     font-size: 15px;
   }
- }
- @media (min-width: 650px) {
+}
+@media (min-width: 650px) {
   .card-container {
     max-width: 900px;
     margin: auto;
-   }
+  }
   .cards {
     height: 450px;
     padding: 50px;
@@ -242,17 +242,17 @@ body {
     margin-bottom: 60px;
     font-size: 12px;
   }
-  .btns {
+  .btn {
     padding: 8px 18px;
     font-size: 15px;
   }
- }
- @media (min-width: 500px) {
+}
+@media (min-width: 500px) {
   .card-container {
     max-width: 900px;
     margin: auto;
     margin-left: 48px;
-   }
+  }
   .cards {
     height: 450px;
     padding: 50px;
@@ -267,14 +267,14 @@ body {
   .card-detail.luxury {
     margin-bottom: 40px;
   }
-  .btns {
+  .btn {
     padding: 8px 18px;
     font-size: 15px;
   }
- }
+}
 
 @media (max-width: 495px) {
-    .card-container {
+  .card-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -310,14 +310,14 @@ body {
     margin: 0.9375rem;
   }
 
-  .btns {
+  .btn {
     padding: 1rem 2.5rem;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 2.5rem;
   }
 
-  .btns:hover {
+  .btn:hover {
     background: transparent;
     color: var(--very-light-gray-bg-head-btns);
     border: 2px solid var(--very-light-gray-bg-head-btns);
