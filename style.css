@@ -280,7 +280,7 @@ body {
     margin: 0 auto;
     margin-top: 1700px;
     margin-right: 10px;
-    width: 300px;
+    max-width: 400px;
   }
   .cards {
     height: 800px;
